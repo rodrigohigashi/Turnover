@@ -18,7 +18,7 @@ O script gerará um relatório do pandas profiling e outras análises no diretó
 🚀 Como Rodar o Projeto
 Clone este repositório:
 
-git clone https://github.com/seuusuario/analise-turnover.git
+git clone https://github.com/rodrigohigashi/Turnover.git
 cd analise-turnover
 Crie e ative um ambiente virtual (opcional, mas recomendado):
 
