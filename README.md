@@ -1,53 +1,44 @@
-📌 Análise de Turnover de uma Empresa
-Este projeto utiliza Árvore de Decisão para classificar se um funcionário terá turnover (saída da empresa) ou não, com base em suas características.
+# Decision Tree – Turnover Analysis
 
-📊 Objetivo
-O objetivo é construir um modelo preditivo capaz de identificar padrões e auxiliar na tomada de decisão sobre retenção de talentos.
+This repository contains a classification project using Decision Trees to predict employee turnover.
 
-🔍 Análise Exploratória de Dados (AED)
-Antes de treinar o modelo, o arquivo aed.py realiza uma análise exploratória automatizada, incluindo:
+Este repositório contém um projeto de classificação usando Árvores de Decisão para prever o turnover de funcionários.
 
-Pandas Profiling: Gera um relatório detalhado sobre o dataset, com estatísticas descritivas e visualizações.
-Information Value (IV): Calcula a importância das variáveis independentes para prever a variável alvo (turnover).
-Análise Bivariada: Examina a relação entre as variáveis independentes e a variável alvo.
-Como rodar a análise exploratória:
-Execute o script aed.py para obter um relatório completo de análise exploratória.
+---
 
-python aed.py
-O script gerará um relatório do pandas profiling e outras análises no diretório de saída.
-🚀 Como Rodar o Projeto
-Clone este repositório:
+## 📂 Project Structure / Estrutura do Projeto
 
-git clone https://github.com/rodrigohigashi/Turnover.git
-cd analise-turnover
-Crie e ative um ambiente virtual (opcional, mas recomendado):
+- **PT/**: Versão em português do projeto
+  - Notebook com o modelo (Arvore_Decisao_Turnover.ipynb)
+  - Script de análise exploratória (aed.py)
+  - Base de dados em português (base_rh.csv)
+  - [README_PT.md](./PT/README_PT.md)
 
-python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
-Instale as dependências:
+- **EN/**: English version of the project
+  - Notebook with the model (Decision_Tree_Turnover.ipynb)
+  - Exploratory analysis script (aed.py)
+  - Dataset in English (hr_base.csv)
+  - [README_EN.md](./EN/README_EN.md)
 
-pip install -r requirements.txt
-Execute o script da AED:
+---
 
-python aed.py
-Após a análise exploratória, execute o modelo de árvore de decisão:
+## 🧠 Objective
 
-python main.py
-📈 Métricas Utilizadas
-O modelo é avaliado por diversas métricas de classificação:
+To build a predictive model that helps identify patterns associated with employee turnover and support decision-making in talent retention.
 
-Acurácia
-Precisão (Precision)
-Recall (Sensibilidade)
-F1-score
-Matriz de Confusão
-Índice de Gini
-📊 Visualizações
-O projeto inclui duas formas de visualização da árvore de decisão:
+Construir um modelo preditivo que ajude a identificar padrões associados ao turnover de funcionários e apoiar a tomada de decisão na retenção de talentos.
 
-plot_tree (visualização padrão do sklearn)
-dtreeviz (visualização mais detalhada e interpretável)
-Exemplo de uma árvore gerada:
+---
 
-📜 Licença
-Este projeto é de uso livre para fins de aprendizado e estudo.
+## 📌 Highlights
+
+- 🔍 Exploratory Data Analysis (AED) with `pandas-profiling`, `sweetviz`, and Information Value (IV)
+- 🌳 Classification model using `DecisionTreeClassifier`
+- 📊 Detailed evaluation metrics and visualizations
+
+---
+
+## 📜 License
+
+This project is free for learning and educational purposes.  
+Este projeto é livre para fins de aprendizado e estudo.
